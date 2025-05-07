@@ -1,0 +1,71 @@
+[gd_scene load_steps=2 format=3 uid="uid://el5tw70ofsg7"]
+
+[ext_resource type="Script" path="res://scripts/relacionar.gd" id="1_q2gr3"]
+
+[node name="Relacionar" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -1.0
+offset_top = 6.0
+offset_right = -1.0
+offset_bottom = 6.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_q2gr3")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 27.0
+offset_right = 96.0
+offset_bottom = 50.0
+text = "pruebas"
+
+[node name="ProgressBar" type="ProgressBar" parent="."]
+layout_mode = 0
+offset_left = 47.0
+offset_top = 58.0
+offset_right = 51.0
+offset_bottom = 85.0
+scale = Vector2(2.28, 1)
+
+[node name="GridContainerWords" type="GridContainer" parent="."]
+layout_mode = 0
+offset_left = 50.0
+offset_top = 108.0
+offset_right = 78.0
+offset_bottom = 164.0
+scale = Vector2(2.52665, 3.28296)
+columns = 2
+
+[node name="WordButton1" type="Button" parent="GridContainerWords"]
+layout_mode = 2
+
+[node name="WordButton2" type="Button" parent="GridContainerWords"]
+layout_mode = 2
+
+[node name="WordButton3" type="Button" parent="GridContainerWords"]
+layout_mode = 2
+
+[node name="WordButton4" type="Button" parent="GridContainerWords"]
+layout_mode = 2
+
+[node name="WordButton5" type="Button" parent="GridContainerWords"]
+layout_mode = 2
+
+[node name="WordButton6" type="Button" parent="GridContainerWords"]
+layout_mode = 2
+
+[node name="WordButton7" type="Button" parent="GridContainerWords"]
+layout_mode = 2
+
+[node name="WordButton8" type="Button" parent="GridContainerWords"]
+layout_mode = 2
+
+[node name="WordButton9" type="Button" parent="GridContainerWords"]
+layout_mode = 2
+
+[node name="WordButton10" type="Button" parent="GridContainerWords"]
+layout_mode = 2
