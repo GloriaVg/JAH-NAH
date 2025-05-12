@@ -1,0 +1,53 @@
+[gd_scene load_steps=4 format=3 uid="uid://d2kydj16ush48"]
+
+[ext_resource type="Script" path="res://scenes/start/app_intro.gd" id="1_5joba"]
+[ext_resource type="Texture2D" uid="uid://jopswo73k7nv" path="res://assets/images/Jaguar.png" id="1_8a7y7"]
+
+[sub_resource type="GDScript" id="GDScript_eocwg"]
+script/source = "extends Timer
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+"
+
+[node name="AppIntro" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_5joba")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = -1.0
+offset_top = -1.0
+offset_right = 721.0
+offset_bottom = 1274.0
+color = Color(0.866667, 0.827451, 0.74902, 1)
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_bottom = 0.076
+offset_left = 31.0
+offset_top = 275.0
+offset_right = 705.0
+offset_bottom = 918.1
+texture = ExtResource("1_8a7y7")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 2.5
+one_shot = true
+autostart = true
+script = SubResource("GDScript_eocwg")
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
