@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://d2kydj16ush48"]
+[gd_scene load_steps=6 format=3 uid="uid://d2kydj16ush48"]
 
 [ext_resource type="Script" path="res://scenes/start/app_intro.gd" id="1_5joba"]
 [ext_resource type="Texture2D" uid="uid://jopswo73k7nv" path="res://assets/images/Jaguar.png" id="1_8a7y7"]
@@ -16,6 +16,30 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	pass
 "
+
+[sub_resource type="Animation" id="Animation_t6wa5"]
+resource_name = "fade_and_change"
+length = 2.5
+step = 0.2
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(3.93404),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"change_scene"
+}]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_5u10h"]
+_data = {
+"fade_and_change": SubResource("Animation_t6wa5")
+}
 
 [node name="AppIntro" type="Control"]
 layout_mode = 3
@@ -50,4 +74,11 @@ one_shot = true
 autostart = true
 script = SubResource("GDScript_eocwg")
 
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_5u10h")
+}
+speed_scale = 2.5
+
+[connection signal="ready" from="Timer" to="." method="_on_timer_ready"]
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
