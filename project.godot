@@ -10,8 +10,8 @@ config_version=5
 
 [application]
 
-config/name="JAH-NAH"
-run/main_scene="res://scenes/start/app_intro.tscn"
+config/name="AprendeNahuatl"
+run/main_scene="res://scenes/main_menu.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
 config/icon="res://icon.svg"
 
