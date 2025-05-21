@@ -1,0 +1,55 @@
+[gd_scene load_steps=3 format=3 uid="uid://dtuhdp2ymtccm"]
+
+[ext_resource type="Script" path="res://scripts/completarfrase.gd" id="1_ikykw"]
+[ext_resource type="Texture2D" uid="uid://b41h6eb6vsxwq" path="res://assets/images/iconotemas.png" id="2_n8oid"]
+
+[node name="Completarfrase" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ikykw")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 93.0
+offset_right = 80.0
+offset_bottom = 133.0
+scale = Vector2(0.24, 0.2)
+texture = ExtResource("2_n8oid")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 53.0
+offset_top = 212.0
+offset_right = 93.0
+offset_bottom = 235.0
+
+[node name="GridContainer" type="GridContainer" parent="."]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 298.0
+offset_right = 64.0
+offset_bottom = 342.0
+
+[node name="Button" type="Button" parent="GridContainer"]
+layout_mode = 2
+
+[node name="Button2" type="Button" parent="GridContainer"]
+layout_mode = 2
+
+[node name="Button3" type="Button" parent="GridContainer"]
+layout_mode = 2
+
+[node name="Button4" type="Button" parent="GridContainer"]
+layout_mode = 2
+
+[node name="ProgressBar" type="ProgressBar" parent="."]
+layout_mode = 0
+offset_left = 31.0
+offset_top = 24.0
+offset_right = 35.0
+offset_bottom = 51.0

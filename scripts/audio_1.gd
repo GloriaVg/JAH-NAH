@@ -10,7 +10,7 @@ var current_options = []
 var correct_image_path = ""
 var question_data = [
 	{
-		"audio": "res://assets/audio/gato.m4a",
+		"audio": "res://assets/audio/gato.ogg",
 		"correct": "res://assets/images/gato.png",
 		"options": [
 			"res://assets/images/gato.png",

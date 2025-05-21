@@ -1,0 +1,59 @@
+[gd_scene load_steps=3 format=3 uid="uid://bmlcirpls3sfw"]
+
+[ext_resource type="Script" path="res://scripts/armarfrase.gd" id="1_gx52i"]
+[ext_resource type="Texture2D" uid="uid://b41h6eb6vsxwq" path="res://assets/images/iconotemas.png" id="2_0ewa6"]
+
+[node name="Armarfrase" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.114286, 0.0479693)
+script = ExtResource("1_gx52i")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 735.0
+offset_top = 2835.15
+offset_right = 775.0
+offset_bottom = 2875.15
+scale = Vector2(6.87, 20.8003)
+texture = ExtResource("2_0ewa6")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 420.0
+offset_top = 9797.94
+offset_right = 460.0
+offset_bottom = 9820.94
+scale = Vector2(35.2008, 43.3086)
+
+[node name="GridContainer" type="GridContainer" parent="."]
+layout_mode = 0
+offset_left = 437.5
+offset_top = 13383.6
+offset_right = 477.5
+offset_bottom = 13427.6
+scale = Vector2(26.6684, 41.533)
+
+[node name="Button" type="Button" parent="GridContainer"]
+layout_mode = 2
+
+[node name="Button2" type="Button" parent="GridContainer"]
+layout_mode = 2
+
+[node name="Button3" type="Button" parent="GridContainer"]
+layout_mode = 2
+
+[node name="Button4" type="Button" parent="GridContainer"]
+layout_mode = 2
+
+[node name="ProgressBar" type="ProgressBar" parent="."]
+layout_mode = 0
+offset_left = 630.0
+offset_top = 1334.19
+offset_right = 634.0
+offset_bottom = 1361.19
+scale = Vector2(21.58, 29.5455)
