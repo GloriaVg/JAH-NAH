@@ -1,11 +1,11 @@
 extends Control
 
 @onready var btns = [
-	$VButtonLevel1,
-	$VButtonLevel2,
-	$ButtonLevel3,
-	$VButtonLevel4,
-	$VButtonLevel5
+	$VBoxContainer/ButtonLevel1,
+	$VBoxContainer/ButtonLevel2,
+	$VBoxContainer/ButtonLevel3,
+	$VBoxContainer/ButtonLevel4,
+	$VBoxContainer/ButtonLevel5
 ]
 
 @onready var btn_back = $ButtonBack
