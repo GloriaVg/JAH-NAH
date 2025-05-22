@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 [gd_scene format=3 uid="uid://cvmlxnk3vn4sr"]
+=======
+[gd_scene format=3 uid="uid://bqti0kir1h0p5"]
+>>>>>>> Stashed changes
 
 [node name="Introduction" type="Control"]
 layout_mode = 3
