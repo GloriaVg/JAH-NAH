@@ -1,0 +1,52 @@
+[gd_scene load_steps=4 format=3 uid="uid://dex33u840rag7"]
+
+[ext_resource type="Script" path="res://scripts/level_1.gd" id="1_e0i3n"]
+[ext_resource type="Texture2D" uid="uid://b41h6eb6vsxwq" path="res://assets/images/iconotemas.png" id="2_tfdl7"]
+[ext_resource type="Texture2D" uid="uid://cviq4l03cbfe0" path="res://assets/images/piramide.png" id="3_ylktt"]
+
+[node name="Level1" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_e0i3n")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 14.0
+offset_top = 10.0
+offset_right = 113.0
+offset_bottom = 85.0
+text = "Introduccion al Idioma
+
+1.1 Saludos"
+
+[node name="ButtonBack1" type="Button" parent="."]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 534.0
+offset_right = 91.0
+offset_bottom = 565.0
+text = "Volver"
+
+[node name="TextureButtonTopic" type="TextureButton" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.092
+offset_left = 588.0
+offset_top = 30.0
+offset_right = 767.76
+offset_bottom = 255.0
+scale = Vector2(0.27859, 0.254963)
+texture_normal = ExtResource("2_tfdl7")
+
+[node name="TextureButtonStart" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 137.0
+offset_top = 165.0
+offset_right = 649.0
+offset_bottom = 677.0
+scale = Vector2(0.862927, 0.959999)
+texture_normal = ExtResource("3_ylktt")
