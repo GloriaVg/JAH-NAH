@@ -4,13 +4,8 @@
 [ext_resource type="Texture2D" uid="uid://b41h6eb6vsxwq" path="res://assets/images/iconotemas.png" id="2_h6lus"]
 [ext_resource type="Texture2D" uid="uid://cviq4l03cbfe0" path="res://assets/images/piramide.png" id="3_mri31"]
 [ext_resource type="Texture2D" uid="uid://b80ov171cbw5f" path="res://assets/images/20250519_1220_Pirámide Náhuatl Animada_simple_compose_01jvmwbabffmat63jvtxengm30.png" id="4_x47ce"]
-<<<<<<< Updated upstream
 [ext_resource type="Texture2D" uid="uid://cfvxtxot3c8t" path="res://assets/images/5.png" id="5_kyd4l"]
 [ext_resource type="Texture2D" uid="uid://w1fkbif6wc5q" path="res://assets/images/Nahualt.png" id="6_ifmgo"]
-=======
-[ext_resource type="Texture2D" path="res://assets/images/5.png" id="5_kyd4l"]
-[ext_resource type="Texture2D" path="res://assets/images/Nahualt.png" id="6_ifmgo"]
->>>>>>> Stashed changes
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4qano"]
 bg_color = Color(0.992157, 0.843137, 0.666667, 1)
