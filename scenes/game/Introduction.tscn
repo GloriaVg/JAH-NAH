@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://cvmlxnk3vn4sr"]
+
+[node name="Introduction" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 720.0
+offset_bottom = 1280.0
+color = Color(0.866667, 0.827451, 0.74902, 1)
+
+[node name="ColorRect" type="ColorRect" parent="ColorRect"]
+layout_mode = 0
+offset_right = 720.0
+offset_bottom = 325.0
+color = Color(0.615686, 0.482353, 0.333333, 1)
+
+[node name="GridContainer" type="GridContainer" parent="."]
+layout_mode = 0
+offset_left = 70.0
+offset_top = 650.0
+offset_right = 650.0
+offset_bottom = 970.0
+columns = 5

@@ -1,4 +1,8 @@
-[gd_scene load_steps=2 format=3 uid="uid://dw33iyfjixty3"]
+[gd_scene load_steps=5 format=3 uid="uid://dw33iyfjixty3"]
+
+[ext_resource type="Texture2D" uid="uid://dw5vioyr3ck7v" path="res://assets/images/icons/ICON_01.png" id="1_ylmw4"]
+[ext_resource type="Texture2D" uid="uid://c7grpsow1q7qt" path="res://assets/images/icons/ICON_02.png" id="2_10dev"]
+[ext_resource type="Texture2D" uid="uid://drvb2aqghss48" path="res://assets/images/icons/ICON_03.png" id="3_ovhhr"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3qcq1"]
 bg_color = Color(0.372549, 0.584314, 0.45098, 1)
@@ -30,18 +34,57 @@ offset_right = 687.0
 offset_bottom = 156.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 26
-text = "Creemos tu perfil
-"
+text = "Selecciona una imagen de perfil"
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Button" type="Button" parent="."]
 layout_mode = 0
-offset_left = 142.0
-offset_top = 1030.0
-offset_right = 575.0
-offset_bottom = 1140.0
+offset_left = 146.0
+offset_top = 1102.0
+offset_right = 579.0
+offset_bottom = 1201.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 32
 theme_override_styles/normal = SubResource("StyleBoxFlat_3qcq1")
 text = "Siguiente"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 144.0
+offset_right = 1136.0
+offset_bottom = 1264.0
+scale = Vector2(0.2, 0.2)
+alignment = 1
+
+[node name="TextureButton" type="TextureButton" parent="VBoxContainer"]
+texture_filter = 2
+layout_mode = 2
+texture_normal = ExtResource("1_ylmw4")
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="."]
+offset_left = 264.0
+offset_top = 112.0
+offset_right = 1384.0
+offset_bottom = 1648.0
+scale = Vector2(0.17, 0.17)
+alignment = 1
+
+[node name="TextureButton" type="TextureButton" parent="VBoxContainer2"]
+texture_filter = 2
+layout_mode = 2
+texture_normal = ExtResource("2_10dev")
+
+[node name="VBoxContainer3" type="VBoxContainer" parent="."]
+offset_left = 483.0
+offset_top = 109.0
+offset_right = 1603.0
+offset_bottom = 1645.0
+scale = Vector2(0.18, 0.18)
+alignment = 1
+
+[node name="TextureButton" type="TextureButton" parent="VBoxContainer3"]
+texture_filter = 2
+layout_mode = 2
+texture_normal = ExtResource("3_ovhhr")

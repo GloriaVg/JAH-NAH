@@ -1,8 +1,59 @@
-[gd_scene load_steps=4 format=3 uid="uid://dsw1udekafi5r"]
+[gd_scene load_steps=11 format=3 uid="uid://dsw1udekafi5r"]
 
 [ext_resource type="Script" path="res://scripts/level_1.gd" id="1_yk0fv"]
 [ext_resource type="Texture2D" uid="uid://b41h6eb6vsxwq" path="res://assets/images/iconotemas.png" id="2_h6lus"]
 [ext_resource type="Texture2D" uid="uid://cviq4l03cbfe0" path="res://assets/images/piramide.png" id="3_mri31"]
+[ext_resource type="Texture2D" uid="uid://b80ov171cbw5f" path="res://assets/images/20250519_1220_Pirámide Náhuatl Animada_simple_compose_01jvmwbabffmat63jvtxengm30.png" id="4_x47ce"]
+[ext_resource type="Texture2D" uid="uid://cfvxtxot3c8t" path="res://assets/images/5.png" id="5_kyd4l"]
+[ext_resource type="Texture2D" uid="uid://w1fkbif6wc5q" path="res://assets/images/Nahualt.png" id="6_ifmgo"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4qano"]
+bg_color = Color(0.992157, 0.843137, 0.666667, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.871298, 0.789509, 0.649491, 1)
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1ipbb"]
+bg_color = Color(1, 0.741176, 0.34902, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.83, 0.569795, 0.00829999, 0.811765)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vckxn"]
+bg_color = Color(0.615686, 0.482353, 0.333333, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.558087, 0.335646, 0.156924, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wv3ts"]
+bg_color = Color(0.615686, 0.482353, 0.333333, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.556863, 0.337255, 0.156863, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
 
 [node name="Level1" type="Control"]
 layout_mode = 3
@@ -12,24 +63,6 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_yk0fv")
-
-[node name="Label" type="Label" parent="."]
-layout_mode = 0
-offset_left = 1013.0
-offset_top = 198.0
-offset_right = 1188.0
-offset_bottom = 273.0
-text = "Introduccion al Idioma
-
-1.1 Saludos"
-
-[node name="ButtonBack1" type="Button" parent="."]
-layout_mode = 0
-offset_left = 1284.0
-offset_top = 975.0
-offset_right = 1341.0
-offset_bottom = 1006.0
-text = "Volver"
 
 [node name="TextureButtonTopic" type="TextureButton" parent="."]
 layout_mode = 1
@@ -42,18 +75,146 @@ offset_bottom = 373.0
 scale = Vector2(0.27859, 0.254963)
 texture_normal = ExtResource("2_h6lus")
 
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_top = -1.0
+offset_right = 720.0
+offset_bottom = 1279.0
+color = Color(0.866667, 0.827451, 0.74902, 1)
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 70.0
+offset_top = 320.0
+offset_right = 645.0
+offset_bottom = 420.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 28
+theme_override_styles/normal = SubResource("StyleBoxFlat_4qano")
+text = "    1.1 Saludos"
+vertical_alignment = 1
+
 [node name="TextureButtonStart" type="TextureButton" parent="."]
 layout_mode = 0
-offset_left = 861.0
-offset_top = 309.0
-offset_right = 1373.0
-offset_bottom = 821.0
+offset_left = 154.0
+offset_top = 487.0
+offset_right = 1101.0
+offset_bottom = 1212.0
 scale = Vector2(0.862927, 0.959999)
 texture_normal = ExtResource("3_mri31")
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="Encabezado" type="ColorRect" parent="."]
+use_parent_material = true
 layout_mode = 0
-offset_top = 1.0
 offset_right = 720.0
-offset_bottom = 1277.0
-color = Color(0.866667, 0.827451, 0.74902, 1)
+offset_bottom = 100.0
+
+[node name="Pie" type="ColorRect" parent="Encabezado"]
+use_parent_material = true
+offset_top = 1180.0
+offset_right = 720.0
+offset_bottom = 1280.0
+
+[node name="1" type="Button" parent="Encabezado/Pie"]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 10.0
+offset_right = 105.0
+offset_bottom = 90.0
+theme_override_styles/normal = SubResource("StyleBoxFlat_1ipbb")
+
+[node name="2" type="Button" parent="Encabezado/Pie"]
+offset_left = 170.0
+offset_top = 10.0
+offset_right = 250.0
+offset_bottom = 90.0
+theme_override_styles/normal = SubResource("StyleBoxFlat_1ipbb")
+
+[node name="3" type="Button" parent="Encabezado/Pie"]
+offset_left = 315.0
+offset_top = 10.0
+offset_right = 395.0
+offset_bottom = 90.0
+theme_override_styles/normal = SubResource("StyleBoxFlat_1ipbb")
+
+[node name="4" type="Button" parent="Encabezado/Pie"]
+offset_left = 465.0
+offset_top = 10.0
+offset_right = 545.0
+offset_bottom = 90.0
+theme_override_styles/normal = SubResource("StyleBoxFlat_1ipbb")
+
+[node name="5" type="Button" parent="Encabezado/Pie"]
+offset_left = 615.0
+offset_top = 10.0
+offset_right = 695.0
+offset_bottom = 90.0
+theme_override_styles/normal = SubResource("StyleBoxFlat_1ipbb")
+
+[node name="ButtonBack1" type="Button" parent="."]
+layout_mode = 0
+offset_left = 567.0
+offset_top = 16.0
+offset_right = 688.0
+offset_bottom = 75.0
+text = "Volver"
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 3.0
+offset_top = -9.0
+offset_right = 98.0
+offset_bottom = 110.0
+texture = ExtResource("4_x47ce")
+expand_mode = 1
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 101.0
+offset_top = 36.0
+offset_right = 136.0
+offset_bottom = 78.0
+texture = ExtResource("5_kyd4l")
+expand_mode = 1
+
+[node name="Intro" type="Button" parent="."]
+layout_mode = 0
+offset_left = 70.0
+offset_top = 175.0
+offset_right = 470.0
+offset_bottom = 295.0
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_vckxn")
+text = "Intro al Idioma"
+
+[node name="Temario" type="Button" parent="."]
+layout_mode = 0
+offset_left = 472.0
+offset_top = 175.0
+offset_right = 647.0
+offset_bottom = 295.0
+theme_override_styles/normal = SubResource("StyleBoxFlat_wv3ts")
+
+[node name="TextureButton" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 473.0
+offset_top = 177.0
+offset_right = 648.0
+offset_bottom = 297.0
+disabled = true
+texture_normal = ExtResource("6_ifmgo")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="ColorRect3" type="ColorRect" parent="."]
+layout_mode = 0
+offset_top = 100.0
+offset_right = 720.0
+offset_bottom = 103.0
+color = Color(0.219501, 0.219501, 0.219501, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="ColorRect3"]
+offset_top = 1077.0
+offset_right = 720.0
+offset_bottom = 1080.0
+color = Color(0.219501, 0.219501, 0.219501, 1)
