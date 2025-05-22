@@ -4,7 +4,11 @@
 [ext_resource type="Texture2D" uid="uid://b80ov171cbw5f" path="res://assets/images/20250519_1220_Pirámide Náhuatl Animada_simple_compose_01jvmwbabffmat63jvtxengm30.png" id="2_56b76"]
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [ext_resource type="Texture2D" uid="uid://cfvxtxot3c8t" path="res://assets/images/5.png" id="3_2hwow"]
+=======
+[ext_resource type="Texture2D" path="res://assets/images/5.png" id="3_2hwow"]
+>>>>>>> Stashed changes
 =======
 [ext_resource type="Texture2D" path="res://assets/images/5.png" id="3_2hwow"]
 >>>>>>> Stashed changes

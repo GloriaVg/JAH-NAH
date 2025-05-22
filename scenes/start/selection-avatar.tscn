@@ -2,9 +2,15 @@
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [ext_resource type="Texture2D" uid="uid://dw5vioyr3ck7v" path="res://assets/images/icons/ICON_01.png" id="1_ylmw4"]
 [ext_resource type="Texture2D" uid="uid://c7grpsow1q7qt" path="res://assets/images/icons/ICON_02.png" id="2_10dev"]
 [ext_resource type="Texture2D" uid="uid://drvb2aqghss48" path="res://assets/images/icons/ICON_03.png" id="3_ovhhr"]
+=======
+[ext_resource type="Texture2D" path="res://assets/images/icons/ICON_01.png" id="1_ylmw4"]
+[ext_resource type="Texture2D" path="res://assets/images/icons/ICON_02.png" id="2_10dev"]
+[ext_resource type="Texture2D" path="res://assets/images/icons/ICON_03.png" id="3_ovhhr"]
+>>>>>>> Stashed changes
 =======
 [ext_resource type="Texture2D" path="res://assets/images/icons/ICON_01.png" id="1_ylmw4"]
 [ext_resource type="Texture2D" path="res://assets/images/icons/ICON_02.png" id="2_10dev"]
