@@ -64,6 +64,7 @@ layout_mode = 2
 texture_normal = ExtResource("1_ylmw4")
 
 [node name="VBoxContainer2" type="VBoxContainer" parent="."]
+layout_mode = 0
 offset_left = 264.0
 offset_top = 112.0
 offset_right = 1384.0
@@ -77,6 +78,7 @@ layout_mode = 2
 texture_normal = ExtResource("2_10dev")
 
 [node name="VBoxContainer3" type="VBoxContainer" parent="."]
+layout_mode = 0
 offset_left = 483.0
 offset_top = 109.0
 offset_right = 1603.0

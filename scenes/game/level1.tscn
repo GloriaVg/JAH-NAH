@@ -111,6 +111,7 @@ offset_bottom = 100.0
 
 [node name="Pie" type="ColorRect" parent="Encabezado"]
 use_parent_material = true
+layout_mode = 0
 offset_top = 1180.0
 offset_right = 720.0
 offset_bottom = 1280.0
@@ -124,6 +125,7 @@ offset_bottom = 90.0
 theme_override_styles/normal = SubResource("StyleBoxFlat_1ipbb")
 
 [node name="2" type="Button" parent="Encabezado/Pie"]
+layout_mode = 0
 offset_left = 170.0
 offset_top = 10.0
 offset_right = 250.0
@@ -131,6 +133,7 @@ offset_bottom = 90.0
 theme_override_styles/normal = SubResource("StyleBoxFlat_1ipbb")
 
 [node name="3" type="Button" parent="Encabezado/Pie"]
+layout_mode = 0
 offset_left = 315.0
 offset_top = 10.0
 offset_right = 395.0
@@ -138,6 +141,7 @@ offset_bottom = 90.0
 theme_override_styles/normal = SubResource("StyleBoxFlat_1ipbb")
 
 [node name="4" type="Button" parent="Encabezado/Pie"]
+layout_mode = 0
 offset_left = 465.0
 offset_top = 10.0
 offset_right = 545.0
@@ -145,6 +149,7 @@ offset_bottom = 90.0
 theme_override_styles/normal = SubResource("StyleBoxFlat_1ipbb")
 
 [node name="5" type="Button" parent="Encabezado/Pie"]
+layout_mode = 0
 offset_left = 615.0
 offset_top = 10.0
 offset_right = 695.0
@@ -214,6 +219,7 @@ offset_bottom = 103.0
 color = Color(0.219501, 0.219501, 0.219501, 1)
 
 [node name="ColorRect3" type="ColorRect" parent="ColorRect3"]
+layout_mode = 0
 offset_top = 1077.0
 offset_right = 720.0
 offset_bottom = 1080.0
