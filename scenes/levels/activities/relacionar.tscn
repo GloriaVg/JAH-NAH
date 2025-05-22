@@ -40,32 +40,8 @@ offset_bottom = 164.0
 scale = Vector2(2.52665, 3.28296)
 columns = 2
 
-[node name="WordButton1" type="Button" parent="GridContainerWords"]
+[node name="VBoxEsp" type="VBoxContainer" parent="GridContainerWords"]
 layout_mode = 2
 
-[node name="WordButton2" type="Button" parent="GridContainerWords"]
-layout_mode = 2
-
-[node name="WordButton3" type="Button" parent="GridContainerWords"]
-layout_mode = 2
-
-[node name="WordButton4" type="Button" parent="GridContainerWords"]
-layout_mode = 2
-
-[node name="WordButton5" type="Button" parent="GridContainerWords"]
-layout_mode = 2
-
-[node name="WordButton6" type="Button" parent="GridContainerWords"]
-layout_mode = 2
-
-[node name="WordButton7" type="Button" parent="GridContainerWords"]
-layout_mode = 2
-
-[node name="WordButton8" type="Button" parent="GridContainerWords"]
-layout_mode = 2
-
-[node name="WordButton9" type="Button" parent="GridContainerWords"]
-layout_mode = 2
-
-[node name="WordButton10" type="Button" parent="GridContainerWords"]
+[node name="VBoxNau" type="VBoxContainer" parent="GridContainerWords"]
 layout_mode = 2

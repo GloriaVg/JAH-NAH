@@ -1,0 +1,19 @@
+Numero,Categoría,Español,Nahuatl
+1,Adverbio,Allí/Allá,Ompa
+2,Adverbio,Aquel,Inon
+3,Adverbio,Aquí,Nican
+4,Adverbio,Bueno,Cualli
+5,Advervio,¿Cuál?,Tlein
+6,Advervio,Después,Zatepan
+7,Advervio,Dónde,Campa
+8,Advervio,Estos,Inihqueh
+9,Advervio,Luego,Niman
+10,Advervio,Mañana,Moztla
+11,Advervio,No,Ahmo
+12,Advervio,Para,Inic
+13,Advervio,Por fín,Cemi
+14,Advervio,Que,In
+15,Advervio,Qué?,Tlion
+16,Advervio,Sobre,Ipan
+17,Advervio,Todo,Nochi
+18,Advervio,Verdad,Nelli

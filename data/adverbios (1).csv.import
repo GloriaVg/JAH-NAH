@@ -1,0 +1,15 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://dj7h1j5v555hl"
+valid=false
+
+[deps]
+
+source_file="res://data/adverbios (1).csv"
+
+[params]
+
+compress=true
+delimiter=0
