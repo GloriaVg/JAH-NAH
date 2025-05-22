@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://bqe7250d3y5n6"]
 
-[ext_resource type="Script" path="res://scripts/audio_1.gd" id="1_70514"]
+[ext_resource type="Script" uid="uid://d4h1pqtcx7ox5" path="res://scripts/audio_1.gd" id="1_70514"]
 
 [node name="Audio1" type="Control"]
 layout_mode = 3

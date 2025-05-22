@@ -1,0 +1,112 @@
+{
+	"module_id": 2,
+	"module_name": "Fundamentos del Idioma",
+	"lessons": [
+		{
+			"lesson_id": "2.1",
+			"lesson_name": "Saludos y Presentaciones",
+			"exercises": [
+				{
+					"type": "multiple_choice",
+					"question": "¿Cómo se dice 'Buenos días' en náhuatl?",
+					"options": ["Tlazocamati", "Cualli tonalli", "Nimitztlazohtla", "Nimitztlazohtla"],
+					"correct_answer": "Cualli tonalli",
+					"explanation": "Cualli tonalli significa literalmente 'buen día' en náhuatl."
+				},
+				{
+					"type": "match",
+					"question": "Relaciona el saludo en español con su equivalente en náhuatl.",
+					"pairs": [
+						{"es": "Hola", "nah": "Niltze"},
+						{"es": "Adiós", "nah": "Timoittazceh"},
+						{"es": "¿Cómo te llamas?", "nah": "Tlein ticca?"}
+					],
+					"explanation": "Arrastra cada frase en español a su equivalente en náhuatl."
+				},
+				{
+					"type": "fill_in_blank",
+					"question": "Completa: 'Mi nombre es ____' en náhuatl.",
+					"answer": "notoca",
+					"explanation": "'Notoca' significa 'me llamo' o 'mi nombre es'."
+				},
+				{
+					"type": "multiple_choice",
+					"question": "¿Qué significa 'Timoittazceh'?",
+					"options": ["Hola", "Adiós", "Gracias", "Por favor"],
+					"correct_answer": "Adiós",
+					"explanation": "'Timoittazceh' se usa para despedirse."
+				}
+			]
+		},
+		{
+			"lesson_id": "2.2",
+			"lesson_name": "Números y Contar",
+			"exercises": [
+				{
+					"type": "multiple_choice",
+					"question": "¿Cómo se dice '5' en náhuatl?",
+					"options": ["Macuilli", "Chicuace", "Chicome", "Chicuei"],
+					"correct_answer": "Macuilli",
+					"explanation": "Macuilli es el número 5 en náhuatl."
+				},
+				{
+					"type": "write_number",
+					"question": "Escribe en náhuatl el número 12.",
+					"answer": "Matlactli omome",
+					"explanation": "Matlactli (10) + omome (2) = 12."
+				},
+				{
+					"type": "order_sequence",
+					"question": "Ordena los números del 1 al 5 en náhuatl.",
+					"sequence": ["Ce", "Ome", "Yei", "Nahui", "Macuilli"],
+					"explanation": "Así se cuentan del 1 al 5 en náhuatl."
+				},
+				{
+					"type": "match",
+					"question": "Relaciona el número en español con su equivalente en náhuatl.",
+					"pairs": [
+						{"es": "1", "nah": "Ce"},
+						{"es": "10", "nah": "Matlactli"},
+						{"es": "20", "nah": "Cempohualli"}
+					],
+					"explanation": "Arrastra cada número en español a su equivalente en náhuatl."
+				}
+			]
+		},
+		{
+			"lesson_id": "2.3",
+			"lesson_name": "Días de la Semana y Meses",
+			"exercises": [
+				{
+					"type": "multiple_choice",
+					"question": "¿Cómo se dice 'Lunes' en náhuatl?",
+					"options": ["Tonaltin", "Tonalmachiotl", "Tonatiuh", "Tonalnan"],
+					"correct_answer": "Tonalmachiotl",
+					"explanation": "Tonalmachiotl significa 'Lunes' en náhuatl."
+				},
+				{
+					"type": "match",
+					"question": "Relaciona el mes en español con su equivalente en náhuatl.",
+					"pairs": [
+						{"es": "Enero", "nah": "Atlacacauallo"},
+						{"es": "Febrero", "nah": "Tlacaxipehualiztli"},
+						{"es": "Marzo", "nah": "Tozoztontli"}
+					],
+					"explanation": "Arrastra cada mes en español a su equivalente en náhuatl."
+				},
+				{
+					"type": "fill_in_blank",
+					"question": "Completa: 'Hoy es ____' en náhuatl (para decir 'lunes').",
+					"answer": "Tonalmachiotl",
+					"explanation": "'Hoy es lunes' se dice 'Tonalmachiotl' para el día lunes."
+				},
+				{
+					"type": "order_sequence",
+					"question": "Ordena los días de la semana en náhuatl (de lunes a domingo).",
+					"sequence": ["Tonalmachiotl", "Cehuelia", "Omechihua", "Yeiquiahuitl", "Nahuiquiahuitl", "Macuillitonalli", "Chicuacequiahuitl"],
+					"explanation": "Estos son los días de la semana en náhuatl."
+				}
+			]
+		}
+	]
+} 

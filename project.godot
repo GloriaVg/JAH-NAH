@@ -10,21 +10,24 @@ config_version=5
 
 [application]
 
-config/name="JAH-NAH"
-run/main_scene="res://scenes/start/app_intro.tscn"
-config/features=PackedStringArray("4.3", "GL Compatibility")
+config/name="Aprende Náhuatl"
+run/main_scene="res://scenes/main_menu.tscn"
+config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
 
 [autoload]
 
 GameManager="*res://scripts/game_manager.gd"
+LessonManager="*res://scripts/lesson_manager.gd"
 
 [display]
 
-window/size/viewport_width=720
-window/size/viewport_height=1280
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
 
 [rendering]
 
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.301961, 0.301961, 0.301961, 1)
