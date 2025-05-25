@@ -1,8 +1,8 @@
 [gd_scene load_steps=8 format=3 uid="uid://c70uureanjjef"]
 
 [ext_resource type="FontFile" uid="uid://bgttq8r3lp1l8" path="res://assets/font/PlayfairDisplay-VariableFont_wght.ttf" id="1_45gtf"]
-[ext_resource type="Script" path="res://scripts/empezar.gd" id="2_jonck"]
-[ext_resource type="Script" path="res://scenes/start/cuenta.gd" id="3_m5eft"]
+[ext_resource type="Script" uid="uid://b5ieo30s7j28m" path="res://scripts/empezar.gd" id="2_jonck"]
+[ext_resource type="Script" uid="uid://fb58xpae8p48" path="res://scenes/start/cuenta.gd" id="3_m5eft"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ffqc4"]
 bg_color = Color(0.064, 0.4, 0.3328, 1)

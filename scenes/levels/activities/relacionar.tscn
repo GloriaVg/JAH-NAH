@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://el5tw70ofsg7"]
 
-[ext_resource type="Script" path="res://scripts/relacionar.gd" id="1_q2gr3"]
+[ext_resource type="Script" uid="uid://dleccxq21ec8x" path="res://scripts/relacionar.gd" id="1_q2gr3"]
 
 [node name="Relacionar" type="Control"]
 layout_mode = 3
