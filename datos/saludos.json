@@ -1,0 +1,73 @@
+[
+	{ "categoria": "Saludos-despedidas", "espanol": "Adios", "nahuatl": "Timoitase" },
+	{ "categoria": "Saludos-despedidas", "espanol": "Buenas Noches", "nahuatl": "Kuali Youal" },
+	{ "categoria": "Saludos-despedidas", "espanol": "Buenos Dias", "nahuatl": "Kuali Tonal" },
+	{ "categoria": "Saludos-despedidas", "espanol": "Buenas Tardes", "nahuatl": "Kuali Teotlak" },
+	{ "categoria": "Saludos-despedidas", "espanol": "¿Cómo estás?", "nahuatl": "¿Ken tika?" },
+	{ "categoria": "Saludos-despedidas", "espanol": "¡Cuídate!", "nahuatl": "Ximokuitlauia" },
+	{ "categoria": "Saludos-despedidas", "espanol": "Hasta luego", "nahuatl": "Totstikate" },
+	{ "categoria": "Saludos-despedidas", "espanol": "Hasta pronto", "nahuatl": "Isiuka ximokuepa" },
+	{ "categoria": "Saludos-despedidas", "espanol": "Hola", "nahuatl": "Niltse" },
+	{ "categoria": "Saludos-despedidas", "espanol": "Mi nombre es…", "nahuatl": "Notoka" },
+	{ "categoria": "Saludos-despedidas", "espanol": "Un gusto de verlo", "nahuatl": "Nisempaki nikitta in tejuatsin" },
+	{
+		"tipo": "traduccion",
+		"espanol": "¿Qué pasa?",
+		"nahuatl": "¿Tlein pano?",
+		"categoria": "Saludos-despedidas"
+	},
+	{
+		"tipo": "pregunta",
+		"pregunta": "¿Cuál es la forma correcta de decir 'Buenos días' en náhuatl?",
+		"opciones": [
+			"Kuali Tonal",
+			"Kuali Youal",
+			"Kuali Teotlak",
+			"Timoitase"
+		],
+		"respuesta_correcta": "Kuali Tonal"
+	},
+	{
+		"tipo": "pregunta",
+		"pregunta": "¿Cómo se dice 'Adiós' en náhuatl?",
+		"opciones": [
+			"Timoitase",
+			"Niltse",
+			"Ximokuitlauia",
+			"Totstikate"
+		],
+		"respuesta_correcta": "Timoitase"
+	},
+	{
+		"tipo": "pregunta",
+		"pregunta": "¿Cuál es la forma correcta de decir '¿Cómo estás?' en náhuatl?",
+		"opciones": [
+			"Ken tika?",
+			"Notoka",
+			"Kuali Tonal",
+			"Niltse"
+		],
+		"respuesta_correcta": "Ken tika?"
+	},
+	{
+		"tipo": "completar",
+		"nahuatl": "¿Tlein pano?",
+		"espanol": "¿Qué pasa?",
+		"palabras": ["Tlein", "pano"],
+		"audio": "tlein_pano.mp3"
+	},
+	{
+		"nahuatl": "Kuali timoitase",
+		"espanol": "Que te vaya bien",
+		"palabras": ["Kuali", "timoitase"],
+		"audio": "kuali_timoitase.mp3"
+	},
+	{
+		"nahuatl": "Nimitztlajpaloa",
+		"espanol": "Te saludo",
+		"palabras": ["Nimitztlajpaloa"],
+		"audio": "nimitztlajpaloa.mp3"
+	},
+	{ "categoria": "Saludos-despedidas", "espanol": "Encantado de conocerte", "nahuatl": "Nisempaki nimitsixmati" }
+]
+  
